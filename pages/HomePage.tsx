@@ -22,7 +22,7 @@ export const HomePage: React.FC = () => {
             Unapologetically <span className="text-indigo-400">Offensive</span> Merch
           </h1>
           <p className="mt-4 max-w-2xl mx-auto text-lg md:text-xl text-gray-300">
-            For those who speak fluent sarcasm and find humor in the darkness. Welcome home.
+            Premium quality garments, Hand crafted signs and more available with the,,, something funny
           </p>
           <div className="mt-8">
             <Button onClick={() => navigateTo(Page.PRODUCTS)} variant="primary" className="text-lg">

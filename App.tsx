@@ -163,7 +163,7 @@ const App: React.FC = () => {
 
   return (
     <AppContext.Provider value={contextValue}>
-      <div className="min-h-screen flex flex-col bg-gray-900 text-gray-100 font-inter">
+      <div className="min-h-screen flex flex-col bg-gray-950 text-gray-100 font-inter">
         <Header />
         <main className="flex-grow">
           {renderPage()}
