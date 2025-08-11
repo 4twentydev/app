@@ -9,7 +9,7 @@ export const CartPage: React.FC = () => {
   const { cart, updateCartQuantity, removeFromCart, navigateTo } = React.useContext(AppContext);
 
   const subtotal = cart.reduce((sum, item) => sum + item.price * item.quantity, 0);
-  const taxes = subtotal * 0.08; // Mock tax rate
+  const taxes = subtotal * 0.0915; // Denver
   const total = subtotal + taxes;
 
   if (cart.length === 0) {

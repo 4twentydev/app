@@ -4,12 +4,12 @@ import { Product } from './types';
 export const products: Product[] = [
   {
     id: 1,
-    name: 'Zero Fucks Given Sticker',
-    description: 'High-quality, weatherproof vinyl sticker. Perfect for laptops, water bottles, and offending sensitive people.',
-    price: 4.99,
-    category: 'Stickers',
-    imageUrl: 'https://picsum.photos/seed/sticker1/600/600',
-    variants: [{ type: 'Size', options: ['3"', '4"', '5"'] }],
+    name: 'Dumpster Divers of America T-Shirt',
+    description: 'Celebrate the folded over in your hood',
+    price: 29.99,
+    category: 'T-Shirts',
+    imageUrl: '/images/dumpster.png',
+    variants: [{ type: 'Size', options: ['S','M','L','XL'] }],
   },
   {
     id: 2,
