@@ -12,7 +12,7 @@ export const products: Product[] = [
     variants: [{ type: 'Size', options: ['S','M','L','XL'] }],
   },
   {
-    id: 2,
+    id:2,
     name: 'I Identify As A Threat T-Shirt',
     description: '100% premium cotton. Softer than a liberal\'s feelings. This shirt is a warning label.',
     price: 29.99,

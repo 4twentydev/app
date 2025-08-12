@@ -71,7 +71,7 @@ export const CartPage: React.FC = () => {
                 <span>${total.toFixed(2)}</span>
               </div>
             </div>
-            <Button onClick={() => alert('Checkout is not implemented. Your money is safe... for now.')} className="w-full mt-6 text-lg">
+            <Button onClick={() => navigateTo(Page.CHECKOUT)} className="w-full mt-6 text-lg">
               Proceed to Checkout
             </Button>
           </div>

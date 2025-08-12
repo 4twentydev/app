@@ -11,6 +11,7 @@ import { AccountPage } from './pages/AccountPage';
 import { ContactPage } from './pages/ContactPage';
 import { MobileMenu } from './components/MobileMenu';
 import { AddProductPage } from './pages/AddProductPage';
+import { CheckoutPage } from './pages/CheckoutPage';
 
 interface AppContextType {
   currentPage: Page;
@@ -138,6 +139,8 @@ const App: React.FC = () => {
         return <ContactPage />;
       case Page.ADD_PRODUCT:
         return isLoggedIn ? <AddProductPage /> : <AccountPage />;
+      case Page.CHECKOUT:
+        return <CheckoutPage />;
       default:
         return <HomePage />;
     }
