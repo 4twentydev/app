@@ -6,7 +6,7 @@ export const products: Product[] = [
     id: 1,
     name: 'Dumpster Divers of America T-Shirt',
     description: 'Celebrate the folded over in your hood',
-    price: 29.99,
+    price: 0.99,
     category: 'T-Shirts',
     imageUrl: '/images/dumpster.png',
     variants: [{ type: 'Size', options: ['S','M','L','XL'] }],
