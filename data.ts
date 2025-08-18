@@ -3,7 +3,7 @@ import { Product } from './types';
 
 export const products: Product[] = [
   {
-    id: 1,
+    id: prod_SrJS6F56OoPbaq,
     name: 'Dumpster Divers of America T-Shirt',
     description: 'Celebrate the folded over in your hood',
     price: 0.99,
